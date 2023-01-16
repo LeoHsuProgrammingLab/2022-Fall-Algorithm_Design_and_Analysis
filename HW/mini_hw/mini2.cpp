@@ -93,8 +93,6 @@ int main(){
         //freq = left + right
         node_arr[i]->freq = node_arr[i]->left->freq + node_arr[i]->right->freq;
         min_h.push(node_arr[i]);
-        // cout << "freq of the root = " << node_arr[i]->freq << "\n";
-        // cout << "i = " << i << " \n";
     }
     
     iterate_heap(min_h.top(), result, "");
