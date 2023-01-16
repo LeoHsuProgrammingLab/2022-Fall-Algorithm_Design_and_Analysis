@@ -19,7 +19,7 @@ int main(){
         cin >> arr[i];
     }
     
-    // Construct a maximum subarraya table
+    // Construct a maximum subarray table
     // static can store data in somewhere else rather than stack!
     static ll m_subarray_table[1005][1005]; 
     for(int i = 0; i<n; ++i){//start
